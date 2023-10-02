@@ -1,0 +1,1 @@
+# template_hikvision_nvr
