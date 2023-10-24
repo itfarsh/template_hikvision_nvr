@@ -1,15 +1,15 @@
 zabbix_export:
   version: '6.4'
   template_groups:
-    - uuid: 88e6e8fc6f2f4c5e8a96bfd963e913ef
-      name: 'Templates ITAM'
+    - uuid: 7df96b18c230490a9a0a9e2307226338
+      name: Templates
   templates:
     - uuid: 1f0839b1345d47eba6043664ea6a55f9
       template: 'Hikvision nvr by HTTP'
       name: 'Hikvision nvr by HTTP'
       description: 'Template tooling version used: 0.1'
       groups:
-        - name: 'Templates ITAM'
+        - name: Templates
       items:
         - uuid: 218aec5bf240424180b28aae8b11dc06
           name: 'Hikvision nvr: CPU utilization'
